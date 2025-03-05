@@ -51,7 +51,22 @@ class CardNews extends HTMLElement {
                 box-sizing: border-box;
                 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             }
-                        .card {
+            body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                margin: 0;
+                background-color: #f1f1f1;
+            }
+            .container {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+            }
+            .card {
                 width: 80%;
                 box-shadow: 1px 2px 13px -5px rgba(0,0,0,0.76);
                 -webkit-box-shadow: 1px 2px 13px -5px rgba(0,0,0,0.76);
