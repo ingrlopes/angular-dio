@@ -16,7 +16,7 @@ Para baixar o repositório, siga os passos abaixo:
 3. Execute o seguinte comando para clonar o repositório:
 
 ```
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/ingrlopes/angular-dio.git
 ```
 
 4. Navegue até o diretório do projeto:
